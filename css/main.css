@@ -1,0 +1,708 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+.mb-3, .my-3{
+  margin-bottom: 0px!important;
+}
+
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+}
+
+.bordeado{
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.arabico{
+    font-family: "Adobe Arabic Regular";
+    font-size: 1.5rem;
+}
+
+.iin{
+    width: 154px;
+    outline: solid;
+    color: white;
+}
+
+.greyc{
+  color:  #343a40;
+}
+
+.texto_menu {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+
+}
+
+
+.pf{
+  padding-top: 4.5%;
+  padding-bottom: 4.5%;
+}
+
+/* Navbar*/
+.bg-black{
+  background-color: #000000!important;
+  padding: 2%;
+}
+
+.out{
+  width: 250px;
+  outline: solid;
+  color:  red;
+}
+
+.cajaroja{
+  outline: solid;
+  color:  red;
+}
+
+.in{
+  width: 250px;
+  outline: solid;
+  color:  white;
+}
+
+.size{
+  width: auto;
+  height: 150px;
+}
+
+.bloquefooter{
+    display: inline-block;
+}
+
+/* Parallax*/
+.parallax{
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0px;
+  padding-top:0px;
+}
+
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.titulo{
+  width: 300px;
+  height: auto;
+}
+
+
+/* Img*/
+
+
+.stop{
+  width: 100%;
+  height: auto;
+  padding: 7%;
+}
+
+.classic{
+  width: auto;
+  height: auto;
+}
+
+.logotipo{
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.foots{
+  padding: 5%;
+}
+
+/* Fondo oscuro*/
+
+.tangerine{
+  color: tomato;
+  font-weight: bold;
+}
+
+.boldtxt{
+  font-weight: bold;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+    padding: 2%;
+}
+
+.ptxt{
+  padding: 2%;
+}
+
+.pl{
+  padding: 1%;
+}
+
+.t{
+  padding: 4%;
+}
+
+.baca{
+  background-color: #DA291C;
+}
+
+.mc{
+  margin-top: 10%;
+}
+
+.tb{
+  color: white;
+}
+
+.tred{
+  color: #DC143C;
+}
+
+hr.new4 {
+  border: 1.5px solid;
+  color:  #741759;
+}
+
+
+
+/* Fonts*/
+
+a.navbar-brand {
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 250px;
+  height: 50px;
+  margin-top: 0.5%;
+}
+
+.arabic{
+  font-family: "Adobe Arabic Regular";
+  font-size: 2.8rem;
+}
+
+.arabic2{
+  font-family: "Adobe Arabic Regular";
+  font-size: 1.5rem;
+}
+
+.wood{
+  font-family: "CMWesWoodNo2";
+}
+
+.averia{
+  font-family: "AveriaSansLibre-Regular";
+}
+
+
+@font-face {
+  font-family: 'Adobe Arabic Regular';
+  src: url('../font/Adobe Arabic Regular.eot?#iefix') format('embedded-opentype'),  url('../font/Adobe Arabic Regular.otf')  format('opentype'),
+       url('../font/Adobe Arabic Regular.woff') format('woff'), url('../font/Adobe Arabic Regular.ttf')  format('truetype'), url('../font/Adobe Arabic Regular.svg#ITCAdobe Arabic Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AveriaSansLibre-Regular';
+  src: url('../font/AveriaSansLibre-Regular.eot?#iefix') format('embedded-opentype'),  url('../font/AveriaSansLibre-Regular.otf')  format('opentype'),
+       url('../font/AveriaSansLibre-Regular.woff') format('woff'), url('../font/AveriaSansLibre-Regular.ttf')  format('truetype'), url('../font/AveriaSansLibre-Regular.svg#ITCAveriaSansLibre-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CMWesWoodNo2';
+  src: url('../font/CMWesWoodNo2.eot?#iefix') format('embedded-opentype'),  url('../font/CMWesWoodNo2.otf')  format('opentype'),
+       url('../font/CMWesWoodNo2.woff') format('woff'), url('../font/CMWesWoodNo2.ttf')  format('truetype'), url('../font/CMWesWoodNo2.svg#ITCCMWesWoodNo2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.txtsize{
+  font-size: 0.8rem;
+  color: #f1f1f1;
+}
+
+/* Talleres */
+
+.spacing {
+  margin-top: 3%;
+  margin-bottom: 5%; }
+
+.txt_centrado {
+  text-align: center; }
+
+.margeb{
+  margin-bottom: 2.5%;
+}
+
+
+/* Google Maps*/
+
+.deliver{
+  margin-bottom: 3%;
+}
+
+.mapa{
+  height: 550px;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+.margen{
+  margin-right: 3%; 
+}
+
+
+/* To the top - footer - boton*/
+.btn-circle.btn-md { 
+  width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+
+.icono{
+  margin-right: 3%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  vertical-align: baseline;
+}
+
+.square {
+  width: 368px;
+  height: 3px;
+  background: red;
+  margin-top: 5%;
+}
+
+/* Flags */
+
+.wf{
+  width: 30px;
+  margin: 3%;
+}
+
+.iconosfooter{
+  width: 118px;
+  margin: 3%;
+}
+
+.acercai{ 
+  width: 180px;
+  height: auto;
+}
+
+.acerca2{ 
+  width: 163px;
+  height: auto;
+}
+
+.textos{
+  padding: 3%;
+}
+
+/* Button on click*/
+
+.btnv{
+  background-color:#283593;
+  color: white;
+  display: block;
+  width: 199px;
+  border-radius: 10px;
+  padding: 6px 13px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+.btnv:hover {background-color:#3b77d1;}
+
+
+/* Galeria de fotos*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.bordes{
+  padding: 5%;
+  height: 80%;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Celular  Extra Small size display*/
+
+
+@media all and (max-width: 768px){
+
+  .container{
+    max-width: 768px;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .modal-dialog{
+  max-width: 768px;
+}
+
+.logotipo{
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+
+.imgms {
+  background: url("../img/sillas.jpg");
+  height: 200px;
+  width: auto;
+  margin: 1%;
+  background-size: 100% 100%;
+
+}
+
+
+.bg6{
+  height: 200px;
+  width: 450px;
+  margin: 1%;
+  background-size: 100% 100%;
+  background-image: url('../img/comida.jpg'); 
+}
+
+  .mapa{
+  height: 225px;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+
+.stop{
+  width: 100%;
+  height: auto;
+}
+
+.cover{
+  height: auto;
+}
+.column {
+    width: 100%;
+  }
+ }
+
+ /* Iphone X*/
+
+@media  all  and (min-width: 100px) and (max-width: 539px ){
+
+
+.square{
+  width: 398px;
+  height: 3px;
+  background: red;
+  margin-top: 4%;
+}
+
+.titulo{
+  width: 300px;
+  height: auto;
+}
+
+
+.logotipo {
+    background-image: url(../img/logolasespadas.png);
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    width: 350px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+
+}
+
+/* Surface Duo*/
+@media  all  and (min-width: 540px) and (max-width: 720px ){
+
+.square{
+  width: 300px;
+  height: 3px;
+  background: red;
+  margin-top: 18%;
+}
+
+
+
+.logotipo{
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 350px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+}
+
+
+ /* Tablet*/
+
+@media  all  and (min-width: 696px) and (max-width: 768px ){
+
+
+.logotipo{
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 350px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+}
+
+ /* Tablet  Small size display*/
+
+@media  all  and (min-width: 768px) and (max-width: 992px ){
+
+  .container{
+    max-width: 992px;
+    margin: 0px auto;
+    position: relative;
+  }
+
+.modal-dialog{
+  max-width: 992px;
+}
+  .mapa{
+  height: 550px;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+.stop{
+  width: 100%;
+  height: auto;
+}
+
+.bg6{
+  height: 300px;
+  width: 450px;
+  margin: 1%;
+  background-size: 100% 100%;
+  background-image: url('../img/comida.jpg'); 
+}
+
+.logotipo{
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.cover{
+  height: auto;
+}
+
+
+.imgms {
+  background: url("../img/sillas.jpg");
+  height: 400px;
+  width: auto;
+  margin: 1%;
+  background-size: 100% 100%;
+
+}
+
+  .column {
+    width: 100%;
+  }
+
+
+}
+
+/* Laptop  Medium size display*/
+
+@media  all  and (min-width: 992px) and (max-width: 1200px ){
+  .container{
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .modal-dialog{
+  max-width: 1200px;
+}
+
+  .mapa{
+  height: 550px;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+.stop{
+  width: 100%;
+  height: auto;
+}
+
+.cover{
+  height: auto;
+}
+
+
+.logotipo{
+  background-image: url('../img/logolasespadas.png'); 
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+
+.imgms {
+  background: url("../img/sillas.jpg");
+  height: 500px;
+  width: auto;
+  margin: 1%;
+  background-size: 100% 100%;
+
+}
+
+
+}
+
+/* Desktop  Large size display*/
+
+
+@media all and (min-width: 1200px){
+
+  .square{
+  width: 578px;
+  height: 3px;
+  background: red;
+  margin-top: 4%;
+}
+
+  .container{
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+  }
+
+  .modal-dialog{
+  max-width: 1000px;
+}
+
+  .mapa{
+  height: auto;
+  width: 100%;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+.stop{
+  width: 100%;
+  height: auto;
+}
+
+
+.cover{
+  height: auto;
+}
+
+
+.imgms {
+  background: url("../img/sillas.jpg");
+  height: 500px;
+  width: auto;
+  margin: 1%;
+  background-size: 100% 100%;
+
+}
+
+.bg6{
+  height: 450px;
+  width: auto;
+  margin: 1%;
+  background-size: 100% 100%;
+  background-image: url('../img/comida.jpg'); 
+}
+}
